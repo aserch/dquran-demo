@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itm_time"
+        android:icon="@drawable/ic_time"
+        android:title="time"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itm_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="settings"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/card_background"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_ayat_surah_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="#01579B"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+                tools:text="Alfatihah - صاضيهخاهخصه"
+                />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/mtrl_divider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginHorizontal="24dp"
+                app:dividerColor="@color/btn_color"
+                />
+
+            <TextView
+                android:id="@+id/txt_ayat_total_ayat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="#01579B"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                tools:text="Alfatihah - صاضيهخاهخصه"
+                />
+
+            <TextView
+                android:id="@+id/txt_basmalah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:textStyle="bold"
+                android:text="text here"
+                android:textColor="@color/material_on_background_emphasis_high_type"
+                android:fontFamily="@font/hafs"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+                />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="32dp"
+        android:text="Play All ayah"
+        android:clickable="true"
+        app:backgroundTint="@color/card_background"
+        app:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_gravity="center"
+        app:icon="@drawable/ic_play_arrow"
+        android:textColor="@color/material_on_background_emphasis_high_type"
+        app:iconTint="@color/material_on_background_emphasis_high_type"/>
+
+
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_ayat_quran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="6dp"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+        android:fontFamily="@font/hafs"
+        android:layout_marginBottom="16dp"
+        android:lineHeight="50dp"
+        tools:text="تاستسيتسيلاتتيتستلانتلاتلايستتيتنينتينتلاتنيست"
+        />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/card_background"
+        app:cardCornerRadius="24dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_ayat_translation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                tools:text="Dengan menyebut nama Allah yang Maha Pengasih lagi Maha Penyayang1."
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp">
+
+                <TextView
+                    android:id="@+id/txt_search_surah_ayat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surah : ayah "
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:layout_margin="16dp"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_play_ayat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:clickable="true"
+                    app:background="?attr/selectableItemBackgroundBorderless"
+                    app:cardBackgroundColor="@android:color/transparent"
+
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_play_arrow"
+                        app:tint="@color/material_on_background_emphasis_high_type" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_copy_ayat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:strokeWidth="0dp"
+                    android:layout_marginEnd="16dp"
+                    android:clickable="true"
+                    app:background="?attr/selectableItemBackgroundBorderless"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_content_copy"
+                        app:tint="@color/material_on_background_emphasis_high_type" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_share_ayat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeWidth="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:clickable="true"
+                    app:background="?attr/selectableItemBackgroundBorderless"
+                    app:cardBackgroundColor="@android:color/transparent"
+
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_share"
+                        app:tint="@color/material_on_background_emphasis_high_type" />
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

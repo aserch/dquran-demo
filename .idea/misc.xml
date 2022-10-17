@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_arrow_back.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_book.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_bookmark.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_info.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_menu.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_search.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable-v24/ic_star.xml" value="0.1305" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/bottom_sheets.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/ic_dark_mode.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/ic_dquran_foreground.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/ic_round_search.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/ic_share.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/drawable/item_background.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_ayat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_main.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_main_drawer.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_main_drawer_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_quran.xml" value="0.2" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_search.xml" value="0.16502778965369816" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/activity_splash_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/app_bar_main.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/footnotes_bottom_sheets.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_about_me.xml" value="0.1" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_ayat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_ayat_surah.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_dashboard.xml" value="0.1633176571184267" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_itm_about.xml" value="0.1" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_itm_rate.xml" value="0.1" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_juz.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_page.xml" value="0.1633176571184267" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_quran.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_rate_app.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_search.xml" value="0.12" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_settings.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/fragment_surah.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/item_ayat.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/item_ayat_surah.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/item_juz.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/item_page.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/item_surah.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/list_popup_item.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/layout/nav_header_main.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/menu/activity_main_bar_menu.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/menu/app_bar_main_menu.xml" value="0.16502778965369816" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/menu/bottom_sheets_menu.xml" value="0.16502778965369816" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/menu/search_bar_menu.xml" value="0.16502778965369816" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/mipmap-anydpi-v26/ic_dquran.xml" value="0.131" />
+        <entry key="..\:/Users/aserch/AndroidStudioProjects/dquran2/app/src/main/res/mipmap-anydpi-v26/ic_dquran_round.xml" value="0.131" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

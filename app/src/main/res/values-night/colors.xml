@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_background">#00838F</color>
+    <color name="btn_color">#97D1FF</color>
+    <color name="item_background">#80DEEA</color>
+    <color name="toolbar_icon">#81D4FA</color>
+
+    <color name="color_qalqala">#A5D6A7</color>
+    <color name="color_iqlab">#90CAF9</color>
+    <color name="color_idgham">#CE93D8</color>
+    <color name="color_ikhfa">#F48FB1</color>
+    <color name="color_ghunna">#FFAB91</color>
+    <color name="color_idghamwo">#aaa</color>
+    <color name="color_footnotes">#F48FB1</color>
+</resources>

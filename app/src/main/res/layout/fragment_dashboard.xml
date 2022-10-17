@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/toolbar_icon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D'Quran"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textSize="46dp"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/toolbar_icon"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The easiest way to read \nAl Qur'an"
+        android:textSize="28dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/toolbar_icon"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_last_read"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            app:strokeWidth="0dp"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            app:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/card_background"
+            app:cardCornerRadius="24dp"
+            android:layout_marginEnd="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:paddingStart="24dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_book"
+                    app:tint="@color/material_on_background_emphasis_high_type" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="last read"
+                    android:paddingBottom="8dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_on_background_emphasis_high_type"
+                    android:fontFamily="@font/poppins"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_bookmark"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="0.5"
+            app:strokeWidth="0dp"
+            android:clickable="true"
+            app:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/card_background"
+            app:cardCornerRadius="24dp"
+            android:layout_marginStart="8dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="24dp"
+                android:paddingEnd="24dp"
+                android:paddingStart="24dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_bookmark"
+                    app:tint="@color/material_on_background_emphasis_high_type" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bookmark"
+                    android:paddingBottom="8dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_on_background_emphasis_high_type"
+                    android:fontFamily="@font/poppins"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_al_quran"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        app:strokeWidth="0dp"
+        android:clickable="true"
+        app:background="?attr/selectableItemBackgroundBorderless"
+        android:backgroundTint="@color/card_background"
+        app:cardCornerRadius="24dp"
+        android:layout_marginHorizontal="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="24dp"
+            android:paddingEnd="24dp"
+            android:paddingStart="24dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/moon_night"
+                app:tint="@color/material_on_background_emphasis_high_type" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al Quran"
+                android:paddingBottom="8dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/material_on_background_emphasis_high_type"
+                android:fontFamily="@font/poppins"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</LinearLayout>

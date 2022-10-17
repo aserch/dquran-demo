@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.dquran2.DashboardFragment"
+        android:label="D'Quran"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_quranFragment"
+            app:destination="@id/quranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quranFragment"
+        android:name="com.example.dquran2.QuranFragment"
+        android:label="Quran"
+        tools:layout="@layout/fragment_quran" >
+        <action
+            android:id="@+id/action_quranFragment_to_ayatFragment"
+            app:destination="@id/ayatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ayatFragment"
+        android:name="com.example.dquran2.ui.ayah.AyatFragment"
+        android:label=""
+        tools:layout="@layout/fragment_ayat" >
+        <action
+            android:id="@+id/action_ayatFragment_to_footnotesFragment"
+            app:destination="@id/footnotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itm_nav_rate_app"
+        android:name="com.example.dquran2.ui.RateAppFragment"
+        android:label="Rate App" />
+    <fragment
+        android:id="@+id/itm_nav_about_us"
+        android:name="com.example.dquran2.ui.AboutMeFragment"
+        android:label="About Me" />
+
+    <fragment
+        android:id="@+id/itm_settings"
+        android:name="com.example.dquran2.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.dquran2.MainActivity"
+        android:label="MainActivity" />
+    <dialog
+        android:id="@+id/footnotesFragment"
+        android:name="com.example.dquran2.ui.FootnotesFragment"
+        android:label="FootnotesFragment" />
+
+
+</navigation>

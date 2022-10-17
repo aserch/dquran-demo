@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    Brand Primary color-->
+    <color name="brand_primary">#00BCD4</color>
+    <color name="brand_primary_dark">#80DEEA</color>
+    <color name="brand_background">#E0F7FA</color>
+    <color name="brand_secondary1">#4CD0E1</color>
+    <color name="brand_secondary2">#00838F</color>
+    <color name="brand_secondary3">#01579B</color>
+    <color name="brand_secondary4">#BD0D08</color>
+
+    <color name="toolbar_icon">#00838F</color>
+    <color name="card_background">#80DEEA</color>
+    <color name="item_background">#26C6DA</color>
+
+    <color name="btn_color">#01579B</color>
+
+    <color name="color_qalqala">#ff2f9900</color>
+    <color name="color_iqlab">#ff3164c5</color>
+    <color name="color_idgham">#ffb955c8</color>
+    <color name="color_ikhfa">#ffb60000</color>
+    <color name="color_ghunna">#ffd16a00</color>
+    <color name="color_idghamwo">#aaa</color>
+    <color name="color_footnotes">#ffb60000</color>
+
+
+
+
+
+</resources>
