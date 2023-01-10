@@ -17,4 +17,5 @@ class DashboardFragment: Fragment(R.layout.fragment_dashboard) {
             findNavController().navigate(R.id.action_dashboardFragment_to_quranFragment)
         }
     }
+    // test
 }
